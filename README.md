@@ -9,7 +9,8 @@
 ####Introduction
 RxODE is an R package that facilitates simulation with ODE models in R. It is designed with pharmacometric models in mind, but can be applied more generally to any ODE model. Here, a typical pharmacokinetic-pharmacodynamic (PKPD) model is used to illustrate the application of RxODE. This model is illustrated in Figure 1. It is assumed that all model parameters have been estimated previously.
 
-![Figure 1. A two compartment pharmacokinetic model with an effect compartment](Model_schematic_w500.png)  
+![Figure 1. A two compartment pharmacokinetic model with an effect compartment](RxODE/vignettes/Model_schematic_w500.png)  
+
 **Figure 1. A two compartment pharmacokinetic model with an effect compartment**  
 
 ***
