@@ -14,7 +14,7 @@ libdparse:
 	echo "make libdparse.a in dparser/ ..."
 	(cd dparser; $(MAKE) -f Makefile.new CC="$(CC)" CFLAGS="$(CFLAGS)" AR="$(AR)" RANLIB="$(RANLIB)" libdparse.a)
 
-libtran:
+libtran: libdparse
 	echo "make tran ..."
 	($(CC) tran*.c -Idparser -Ldparser -ldparse -o tran.exe)
 
